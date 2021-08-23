@@ -1,0 +1,120 @@
+@media(max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}   
+@media(max-width: 576px) {
+    .btn-top {
+        margin: 3rem 2rem;
+    }
+    header {
+        height: auto;
+    }
+    .order-list {
+        display: none;
+        flex-direction: column;
+      }
+    #toggle:checked + .order-list{
+       display: inline-flex;
+    }
+}
+@media(max-width: 992px) {
+    .our-team {
+        display: grid;
+        grid-template-columns: auto auto; 
+    }
+    .team-work {
+        margin: 0rem 1rem;
+    }
+    .our-team-section {
+        height: auto;
+    }
+}
+@media(max-width: 786px) {
+    .services {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .our-section {
+        height: auto;
+    }
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-news {
+ 
+     margin: 1rem;
+    }
+    [type="text"] {
+        width: 64%;
+    }
+    .newsletter-section {
+        height: auto;
+    }
+    .newsletter {
+       
+        padding-top: 5rem;
+    }
+    .our-work-section {
+        height: auto;
+    }
+    .work-ph {
+        width:100% ;
+    }
+    .our-protfolio {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-team-section {
+        height: auto;
+    }
+    .our-team {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .mb-ph {
+        width: 100%;
+    }
+}
+@media(max-width: 576px) {
+    .btn-icon {
+        display: flex;
+       flex-direction: column;
+    }
+    .footer-form-section {
+        height: auto;
+    }
+}
+@media(max-width: 412px) {
+    .services {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .our-section {
+        height: auto;
+    }
+    [type="text"] {
+        width: 100%;
+        font-size: 0.6rem;
+    }
+    .work-ph {
+        width:100% ;
+    }
+    .people-comment-section {
+        height: auto;
+    }
+    .btnna .b-img {
+      
+        width: 11%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+
